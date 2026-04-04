@@ -55,3 +55,73 @@ class AddToCartView(APIView):
         return Response({
             "message": "Item added to cart"
         }, status=status.HTTP_200_OK)
+    
+
+from rest_framework.views import APIView
+from rest_framework.response import Response
+from rest_framework.permissions import IsAuthenticated
+from rest_framework import status
+from .models import Cart, CartItem
+from .serializers import CartSerializer
+
+
+# ✅ View Cart
+class CartView(APIView):
+    permission_classes = [IsAuthenticated]
+
+    def get(self, request):
+        cart, _ = Cart.objects.get_or_create(user=request.user)
+        serializer = CartSerializer(cart)
+        return Response(serializer.data)
+
+
+# ✅ Update Quantity
+class UpdateCartItemView(APIView):
+    permission_classes = [IsAuthenticated]
+
+    def patch(self, request, item_id):
+        try:
+            item = CartItem.objects.get(id=item_id, cart__user=request.user)
+        except CartItem.DoesNotExist:
+            return Response({"error": "Item not found"}, status=404)
+
+        quantity = request.data.get('quantity_kg')
+
+        if not quantity:
+            return Response({"error": "quantity_kg required"}, status=400)
+
+        try:
+            quantity = int(quantity)
+            if quantity <= 0:
+                raise ValueError
+        except:
+            return Response({"error": "Invalid quantity"}, status=400)
+
+        item.quantity_kg = quantity
+        item.save()
+
+        return Response({"message": "Cart updated"})
+
+
+# ✅ Remove Item
+class RemoveCartItemView(APIView):
+    permission_classes = [IsAuthenticated]
+
+    def delete(self, request, item_id):
+        try:
+            item = CartItem.objects.get(id=item_id, cart__user=request.user)
+            item.delete()
+            return Response({"message": "Item removed"})
+        except CartItem.DoesNotExist:
+            return Response({"error": "Item not found"}, status=404)
+
+
+# ✅ Clear Cart
+class ClearCartView(APIView):
+    permission_classes = [IsAuthenticated]
+
+    def delete(self, request):
+        cart = Cart.objects.filter(user=request.user).first()
+        if cart:
+            cart.items.all().delete()
+        return Response({"message": "Cart cleared"})  

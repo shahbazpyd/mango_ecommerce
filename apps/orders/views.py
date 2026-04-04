@@ -61,3 +61,55 @@ class CreateOrderView(APIView):
             "message": "Order placed successfully",
             "order_id": order.id
         }, status=status.HTTP_201_CREATED)
+    
+
+from rest_framework.views import APIView
+from rest_framework.response import Response
+from rest_framework.permissions import IsAuthenticated, IsAdminUser
+from .models import Order
+from .serializers import OrderSerializer
+
+
+# ✅ Order History (User)
+class OrderListView(APIView):
+    permission_classes = [IsAuthenticated]
+
+    def get(self, request):
+        orders = Order.objects.filter(user=request.user).order_by('-created_at')
+        serializer = OrderSerializer(orders, many=True)
+        return Response(serializer.data)
+
+
+# ✅ Order Detail
+class OrderDetailView(APIView):
+    permission_classes = [IsAuthenticated]
+
+    def get(self, request, order_id):
+        try:
+            order = Order.objects.get(id=order_id, user=request.user)
+        except Order.DoesNotExist:
+            return Response({"error": "Order not found"}, status=404)
+
+        serializer = OrderSerializer(order)
+        return Response(serializer.data)
+
+
+# ✅ Admin: Update Order Status
+class UpdateOrderStatusView(APIView):
+    permission_classes = [IsAdminUser]
+
+    def patch(self, request, order_id):
+        try:
+            order = Order.objects.get(id=order_id)
+        except Order.DoesNotExist:
+            return Response({"error": "Order not found"}, status=404)
+
+        status_value = request.data.get('status')
+
+        if status_value not in dict(Order.STATUS_CHOICES):
+            return Response({"error": "Invalid status"}, status=400)
+
+        order.status = status_value
+        order.save()
+
+        return Response({"message": "Order status updated"})
