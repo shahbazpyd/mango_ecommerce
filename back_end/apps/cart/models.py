@@ -1,6 +1,6 @@
 from django.db import models
 from django.conf import settings
-from back_end.apps.products.models import Product
+from apps.products.models import Product
 
 User = settings.AUTH_USER_MODEL
 
