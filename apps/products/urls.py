@@ -1,7 +1,7 @@
-from django.urls import path
-from .views import ProductListView, ProductDetailView
+from rest_framework.routers import DefaultRouter
+from .views import ProductViewSet
 
-urlpatterns = [
-    path('', ProductListView.as_view()),
-    path('<int:pk>/', ProductDetailView.as_view()),
-]
+router = DefaultRouter()
+router.register('', ProductViewSet)
+
+urlpatterns = router.urls
