@@ -46,11 +46,13 @@ class AddToCartView(APIView):
 
         item, created = CartItem.objects.get_or_create(
             cart=cart,
-            product=product
+            product=product,
+            defaults={'quantity_kg': quantity}
         )
 
-        item.quantity_kg = item.quantity_kg + quantity if not created else quantity
-        item.save()
+        if not created:
+            item.quantity_kg += quantity
+            item.save()
 
         return Response({
             "message": "Item added to cart"
