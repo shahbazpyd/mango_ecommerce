@@ -1,0 +1,810 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2026-04-05T14:08:49.156Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Kesar Mango",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2026-04-05T14:10:29.030Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "Totapuri Mango",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2026-04-05T14:10:58.924Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "Dasheri Mango",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2026-04-05T14:21:47.271Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "6",
+        "object_repr": "Langra Mango",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2026-04-05T14:22:08.781Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "7",
+        "object_repr": "Himsagar Mango",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2026-04-05T14:22:32.617Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "8",
+        "object_repr": "Neelam Mango",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2026-04-05T14:23:00.276Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "9",
+        "object_repr": "Malgova Mango",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2026-04-05T14:23:26.026Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "10",
+        "object_repr": "Imam Pasand Mango",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2026-04-05T14:23:47.749Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "11",
+        "object_repr": "Raspuri Mango",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2026-04-05T14:24:15.363Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "12",
+        "object_repr": "Amrapali Mango",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2026-04-05T14:24:36.797Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "13",
+        "object_repr": "Chaunsa Mango",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2026-04-05T14:25:06.867Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "14",
+        "object_repr": "Badami Mango",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2026-04-05T14:25:38.531Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "15",
+        "object_repr": "Sindhura Mango",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2026-04-05T14:34:58.586Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "8",
+        "object_repr": "Neelam Mango",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2026-04-05T14:36:35.535Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "9",
+        "object_repr": "Malgova Mango",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2026-04-05T14:37:46.737Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "10",
+        "object_repr": "Imam Pasand Mango",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2026-04-05T14:40:45.753Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "11",
+        "object_repr": "Raspuri Mango",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2026-04-05T14:41:52.916Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "12",
+        "object_repr": "Amrapali Mango",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2026-04-05T14:42:31.196Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "13",
+        "object_repr": "Chaunsa Mango",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2026-04-05T14:44:02.038Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "12",
+        "object_repr": "Amrapali Mango",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2026-04-05T14:44:20.618Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "14",
+        "object_repr": "Badami Mango",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2026-04-05T14:44:25.285Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "15",
+        "object_repr": "Sindhura Mango",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2026-04-06T17:16:37.925Z",
+        "user": 2,
+        "content_type": 10,
+        "object_id": "5",
+        "object_repr": "Order 5 - test@gmail.com",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2026-04-06T17:26:41.749Z",
+        "user": 2,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Order 1 - test@gmail.com",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2026-04-06T17:27:04.692Z",
+        "user": 2,
+        "content_type": 10,
+        "object_id": "6",
+        "object_repr": "Order 6 - test@gmail.com",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Address\", \"Status\"]}}]"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "0i5xd37lxh4x04k08hjqhlman4x6g7oh",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQAP9lz4bwKi49eu83EFhYqRqalPZk_HfTpAe9zkzmDSHuWw17L2uYM4yg4fLLUqRnaYfIj9jui6ClbeucxJGI03YxLbm8bmf7N6ixVxhh4IHJGpmS1K5YtJgKMUlUHI1C7RSaXMiz84rNldBFo6zPyE4ZrxE-X-fkN4c:1w9NCP:aThLNgBayVUVL6zaFtBPopoadAo_1DoRmLXwrKM6aIY",
+        "expire_date": "2026-04-19T13:07:33.902Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "1joo1fbxzph3dhe7hgyiake2unru3fub",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQAP9lz4bwKi49eu83EFhYqRqalPZk_HfTpAe9zkzmDSHuWw17L2uYM4yg4fLLUqRnaYfIj9jui6ClbeucxJGI03YxLbm8bmf7N6ixVxhh4IHJGpmS1K5YtJgKMUlUHI1C7RSaXMiz84rNldBFo6zPyE4ZrxE-X-fkN4c:1w9ioa:EDnYGWIwreiw_gOTbVHxIu00HlYsq358CzFhNqfq1ck",
+        "expire_date": "2026-04-20T12:12:24.035Z"
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$8FyIUJxyatmEHoi9xp721J$IkXSWcT/P+d5YXi9IQcuKD2LSQ34njhpUWaw5s0/JLQ=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "testuser",
+        "first_name": "",
+        "last_name": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-04-04T13:00:10.108Z",
+        "email": "test@gmail.com",
+        "phone": "9876543210",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$f44bTTJgnjbGhAWaXHX9Xr$XhVOAylU3gx6o/gmybD24Q3ORtViv4Dy3vfkUgh77jc=",
+        "last_login": "2026-04-06T12:12:24.023Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-04-05T13:06:10.911Z",
+        "email": "admin@gmail.com",
+        "phone": null,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$YHTiCXWCLnCVUQv3676U3Y$lUFGNRx9V194nDwTldNJeDWPW3mHshCHPwcrbd6mo3g=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "shahbaz",
+        "first_name": "",
+        "last_name": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-04-05T19:37:04.637Z",
+        "email": "sbz@gmail.com",
+        "phone": "7985745674",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+        "name": "Banganapalli Mango",
+        "description": "Popular Andhra mango variety, large in size with sweet pulp",
+        "price_per_kg": "250.00",
+        "stock_kg": 120,
+        "image": "https://doplant.com/cdn/shop/files/1_c679192e-d0ae-4d8e-b745-bb39ba90bcef.jpg?v=1733863809",
+        "is_available": true,
+        "created_at": "2026-04-05T14:00:36.117Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+        "name": "Alphonso Mango",
+        "description": "Premium quality mango from Maharashtra, known for its rich sweetness and aroma.",
+        "price_per_kg": "1200.00",
+        "stock_kg": 50,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/90/Hapus_Mango.jpg",
+        "is_available": true,
+        "created_at": "2026-04-05T14:04:42.805Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+        "name": "Kesar Mango",
+        "description": "Known as the Queen of Mangoes, bright orange pulp with a unique fragrance.",
+        "price_per_kg": "600.00",
+        "stock_kg": 80,
+        "image": "https://m.media-amazon.com/images/I/419GTrDT-1L._AC_UF1000%2C1000_QL80_.jpg",
+        "is_available": true,
+        "created_at": "2026-04-05T14:05:02.037Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+        "name": "Totapuri Mango",
+        "description": "Slightly tangy mango, widely used for juices and pickles.",
+        "price_per_kg": "180.00",
+        "stock_kg": 200,
+        "image": "https://mahindranursery.com/cdn/shop/products/mango-totapuri-intense-smell-plant-for-home-garden-plant-1-healthy-live-plant-kadiyam-nursery-1_500x500.jpg?v=1662733560",
+        "is_available": true,
+        "created_at": "2026-04-05T14:05:39.130Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+        "name": "Dasheri Mango",
+        "description": "North Indian variety with a strong aroma and fiberless juicy pulp.",
+        "price_per_kg": "300.00",
+        "stock_kg": 90,
+        "image": "https://rukmini1.flixcart.com/image/1500/1500/l1nwnm80/plant-sapling/n/u/l/no-annual-yes-dasheri-mango-plant-grafted-1-lilyville-dasheri-original-imagd6uypdwyagvz.jpeg?q=70",
+        "is_available": true,
+        "created_at": "2026-04-05T14:05:52.637Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 6,
+    "fields": {
+        "name": "Langra Mango",
+        "description": "Famous variety from Uttar Pradesh with a tangy-sweet taste and greenish skin.",
+        "price_per_kg": "280.00",
+        "stock_kg": 70,
+        "image": "https://images.unsplash.com/photo-1553279768-865429fa0078",
+        "is_available": true,
+        "created_at": "2026-04-05T14:13:00.587Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 7,
+    "fields": {
+        "name": "Himsagar Mango",
+        "description": "West Bengal variety, extremely sweet with fiberless pulp and rich flavor.",
+        "price_per_kg": "350.00",
+        "stock_kg": 60,
+        "image": "https://images.unsplash.com/photo-1591073113125-e46713c829ed",
+        "is_available": true,
+        "created_at": "2026-04-05T14:13:12.439Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 8,
+    "fields": {
+        "name": "Neelam Mango",
+        "description": "Late-season mango with a strong aroma and balanced sweet taste.",
+        "price_per_kg": "220.00",
+        "stock_kg": 110,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Neelam_mango.jpeg/250px-Neelam_mango.jpeg",
+        "is_available": true,
+        "created_at": "2026-04-05T14:13:27.345Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 9,
+    "fields": {
+        "name": "Malgova Mango",
+        "description": "Large round mango from South India with juicy pulp and rich sweetness.",
+        "price_per_kg": "400.00",
+        "stock_kg": 40,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Mango_Mulgoba_Asit_fs8.jpg/250px-Mango_Mulgoba_Asit_fs8.jpg",
+        "is_available": true,
+        "created_at": "2026-04-05T14:13:40.862Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 11,
+    "fields": {
+        "name": "Raspuri Mango",
+        "description": "Juicy mango from Karnataka, widely used for juices and pulp extraction.",
+        "price_per_kg": "200.00",
+        "stock_kg": 150,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Raspuri_Mangoes.jpg/250px-Raspuri_Mangoes.jpg",
+        "is_available": true,
+        "created_at": "2026-04-05T14:14:09.198Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 12,
+    "fields": {
+        "name": "Amrapali Mango",
+        "description": "Hybrid variety with deep orange pulp, very sweet and good for desserts.",
+        "price_per_kg": "260.00",
+        "stock_kg": 95,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Amrapali_Mango_%281%29.jpg/250px-Amrapali_Mango_%281%29.jpg",
+        "is_available": true,
+        "created_at": "2026-04-05T14:14:19.809Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 13,
+    "fields": {
+        "name": "Chaunsa Mango",
+        "description": "Very sweet and juicy mango, popular in North India and Pakistan.",
+        "price_per_kg": "320.00",
+        "stock_kg": 85,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Chaunsa.JPG/250px-Chaunsa.JPG",
+        "is_available": true,
+        "created_at": "2026-04-05T14:14:32.197Z"
+    }
+},
+{
+    "model": "cart.cart",
+    "pk": 1,
+    "fields": {
+        "user": 3
+    }
+},
+{
+    "model": "cart.cart",
+    "pk": 2,
+    "fields": {
+        "user": 1
+    }
+},
+{
+    "model": "cart.cartitem",
+    "pk": 1,
+    "fields": {
+        "cart": 1,
+        "product": 1,
+        "quantity_kg": 1
+    }
+},
+{
+    "model": "cart.cartitem",
+    "pk": 2,
+    "fields": {
+        "cart": 1,
+        "product": 2,
+        "quantity_kg": 1
+    }
+},
+{
+    "model": "cart.cartitem",
+    "pk": 43,
+    "fields": {
+        "cart": 2,
+        "product": 3,
+        "quantity_kg": 1
+    }
+},
+{
+    "model": "cart.cartitem",
+    "pk": 44,
+    "fields": {
+        "cart": 2,
+        "product": 1,
+        "quantity_kg": 2
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 1,
+    "fields": {
+        "user": 1,
+        "total_price": "530.00",
+        "address": "ameerpet",
+        "city": "Hyderabad",
+        "pincode": "500016",
+        "phone": "7985745674",
+        "status": "confirmed",
+        "created_at": "2026-04-06T10:04:19.444Z"
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 2,
+    "fields": {
+        "user": 1,
+        "total_price": "530.00",
+        "address": "sdghjsadfhgj aSDfhg",
+        "city": "saefrsthdyj sdfjhg,",
+        "pincode": "234565",
+        "phone": "4356324534",
+        "status": "pending",
+        "created_at": "2026-04-06T10:56:08.573Z"
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 3,
+    "fields": {
+        "user": 1,
+        "total_price": "500.00",
+        "address": "qwertdthfasgdhtf asdhfjg",
+        "city": "aesrgdthy",
+        "pincode": "1235421",
+        "phone": "345432354632",
+        "status": "pending",
+        "created_at": "2026-04-06T11:13:08.341Z"
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 4,
+    "fields": {
+        "user": 1,
+        "total_price": "250.00",
+        "address": "fdghfsfdgh",
+        "city": "sdgfhj",
+        "pincode": "4535466",
+        "phone": "6545342",
+        "status": "pending",
+        "created_at": "2026-04-06T11:33:48.311Z"
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 5,
+    "fields": {
+        "user": 1,
+        "total_price": "1800.00",
+        "address": "sdfghjdgfhg",
+        "city": "dgfhjkj",
+        "pincode": "756434676",
+        "phone": "45654365",
+        "status": "confirmed",
+        "created_at": "2026-04-06T13:00:47.087Z"
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 6,
+    "fields": {
+        "user": 1,
+        "total_price": "4310.00",
+        "address": "ftvgyhujikolp;[']\r\n[;plokijuhyujikolp;['",
+        "city": "dgfhjkj",
+        "pincode": "234565",
+        "phone": "7079619717",
+        "status": "delivered",
+        "created_at": "2026-04-06T17:25:51.686Z"
+    }
+},
+{
+    "model": "orders.orderitem",
+    "pk": 1,
+    "fields": {
+        "order": 2,
+        "product": 4,
+        "quantity_kg": 1,
+        "price_per_kg": "180.00"
+    }
+},
+{
+    "model": "orders.orderitem",
+    "pk": 2,
+    "fields": {
+        "order": 2,
+        "product": 7,
+        "quantity_kg": 1,
+        "price_per_kg": "350.00"
+    }
+},
+{
+    "model": "orders.orderitem",
+    "pk": 3,
+    "fields": {
+        "order": 3,
+        "product": 5,
+        "quantity_kg": 1,
+        "price_per_kg": "300.00"
+    }
+},
+{
+    "model": "orders.orderitem",
+    "pk": 4,
+    "fields": {
+        "order": 3,
+        "product": 11,
+        "quantity_kg": 1,
+        "price_per_kg": "200.00"
+    }
+},
+{
+    "model": "orders.orderitem",
+    "pk": 5,
+    "fields": {
+        "order": 4,
+        "product": 1,
+        "quantity_kg": 1,
+        "price_per_kg": "250.00"
+    }
+},
+{
+    "model": "orders.orderitem",
+    "pk": 6,
+    "fields": {
+        "order": 5,
+        "product": 1,
+        "quantity_kg": 2,
+        "price_per_kg": "250.00"
+    }
+},
+{
+    "model": "orders.orderitem",
+    "pk": 7,
+    "fields": {
+        "order": 5,
+        "product": 12,
+        "quantity_kg": 5,
+        "price_per_kg": "260.00"
+    }
+},
+{
+    "model": "orders.orderitem",
+    "pk": 8,
+    "fields": {
+        "order": 6,
+        "product": 2,
+        "quantity_kg": 2,
+        "price_per_kg": "1200.00"
+    }
+},
+{
+    "model": "orders.orderitem",
+    "pk": 9,
+    "fields": {
+        "order": 6,
+        "product": 3,
+        "quantity_kg": 1,
+        "price_per_kg": "600.00"
+    }
+},
+{
+    "model": "orders.orderitem",
+    "pk": 10,
+    "fields": {
+        "order": 6,
+        "product": 6,
+        "quantity_kg": 1,
+        "price_per_kg": "280.00"
+    }
+},
+{
+    "model": "orders.orderitem",
+    "pk": 11,
+    "fields": {
+        "order": 6,
+        "product": 1,
+        "quantity_kg": 1,
+        "price_per_kg": "250.00"
+    }
+},
+{
+    "model": "orders.orderitem",
+    "pk": 12,
+    "fields": {
+        "order": 6,
+        "product": 12,
+        "quantity_kg": 3,
+        "price_per_kg": "260.00"
+    }
+}
+]
